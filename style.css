@@ -1,0 +1,158 @@
+/*Color Scheme
+#FF3300 - Red Orange
+#C39424 - Ugly Orange (Footer Text)
+#FF4619 - Light Orange
+#F2BA33 - Yellow Orange
+#FFFF99 - Eggshell Orange
+#D91C14 - Dark Orange (Specials Text)
+*/
+ body {
+    background-image: url("images/tablecloth.gif");
+}
+main {
+    background: #FFF;
+    /*White*/
+}
+h1 {
+    text-align: center;
+    margin: 0 auto;
+}
+p {
+    margin: 2%;
+}
+h6 {
+    font-style: italic;
+}
+/*------------------------BEGIN NAV------------------------------*/
+ nav {
+    display: flex;
+    background: #FF3300;
+    /*Red Orange*/
+    margin-top:-1%;
+}
+nav a {
+    flex: 1;
+    text-decoration: none;
+    color: #000;
+    /*Black*/
+    text-align: center;
+    padding: 2%;
+    font-weight: bold;
+}
+/*------------------------END NAV--------------------------------*/
+ .centertext {
+    text-align: center;
+}
+.bigbox {
+    width: 80%;
+    border: 2px solid #000;
+    /*Black*/
+    margin: 0 auto;
+    background: #FFF;
+    /*White*/
+}
+.banner img {
+    width: 100%;
+}
+#map {
+    width: 60%;
+    margin: 0 20%;
+}
+#pizzacolor {
+    width: 20%;
+    margin: 0 40%;
+}
+#colorp {
+    text-align: center;
+}
+/*-----------------------BEGIN MENU--------------------------*/
+#menu{
+    display: flex;
+}
+#toppings{
+    flex: 3;
+}
+#toppings h3{
+    margin: 0 2%;
+}
+#toppings p{
+    margin: 0 2%;
+}
+#pizza{
+    flex: 1;
+}
+#crusts p{
+    margin: 0 2%;
+}
+#crusts h3{
+    margin: 2% 2% 0 2%;
+}
+
+/*------------------------END MENU------------------------*/
+#parties {
+    display: flex;
+    margin: 2%;
+}
+#packages {
+    flex: 3;
+}
+#partybread {
+    flex: 1;
+    border: 2px solid #000; /*Black*/
+    width: 100%;
+    height: auto;
+    margin: 5%;
+}
+.packagename {
+    color: #FF4619; /*Light Orange*/
+    font-style: italic;
+    margin-bottom: 0;
+}
+#packages p {
+    margin: 0;
+}
+/*---------------BEGIN CONTACT------------------*/
+#contactinfo{
+    list-style-image: url('images/pizza_icon.gif');
+    margin-left: 5%;
+}
+#partypizzabanner {
+    width: 90%;
+    margin: 0 5%;
+}
+/*---------------END CONTACT--------------------*/
+#specials {
+    display: block;
+    color: #D91C14;
+    /*Dark Orange*/
+}
+#specials div {
+    width: 60%;
+    text-align: center;
+    padding: 2% 0;
+}
+#onetop {
+    border: 2px dashed #000;
+    /*Black*/
+    margin: 2% 20% 5% 20%;
+    background: #F2BA33;
+    /*Yellow Orange*/
+}
+#speciality {
+    border: 2px dashed #000;
+    /*Black*/
+    margin: 5% 20% 2% 20%;
+    background: #FFFF99;
+    /*Eggshell Orange*/
+}
+/*-----------------FOOTER BEGIN----------------------*/
+ footer {
+    background: #000;
+    /*Black*/
+}
+footer p {
+    color: #C39424; /*Ugly Orange*/
+    text-align: center;
+    margin: 0;
+}
+/*-----------------FOOTER END------------------------*/
