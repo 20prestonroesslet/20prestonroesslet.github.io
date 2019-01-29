@@ -7,7 +7,7 @@
 #D91C14 - Dark Orange (Specials Text)
 */
  body {
-    background-image: url("images/tablecloth.gif");
+    background-image: url("https://cdn.glitch.com/62f81d98-26a6-43b8-a899-6606acd2589d%2Ftablecloth.gif?1548778692839");
 }
 main {
     background: #FFF;
@@ -113,7 +113,7 @@ nav a {
 }
 /*---------------BEGIN CONTACT------------------*/
 #contactinfo{
-    list-style-image: url('images/pizza_icon.gif');
+    list-style-image: url('https://cdn.glitch.com/62f81d98-26a6-43b8-a899-6606acd2589d%2Fpizza_icon.gif?1548778947329');
     margin-left: 5%;
 }
 #partypizzabanner {
